@@ -1,0 +1,198 @@
+* {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style-type: none;
+   border: none;
+   background: none;
+   transition: all 0.3s;
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+body {
+   max-width: 1750px;
+   margin: 0 auto;
+   background-color: #f6f6f6;
+
+}
+
+main {
+   padding-top: 20px;
+   margin-bottom: 32px;
+}
+
+.main_cont {
+   width: 100%;
+   padding-top: 20px;;
+}
+
+.main_wp {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.telephones_wp {
+   position: relative;
+   width: 420px;
+   height: auto;
+}
+
+.telephone {
+   position: absolute;
+   height: 550px;
+}
+
+.telephone.front {
+   z-index: 10000;
+   left: 100px;
+   top: 10px;
+}
+
+.form_wp {
+   padding-top: 20px;
+   width: 350px;
+   height: auto;
+   
+}
+
+.first_form_wp {
+   padding: 20px 40px 20px;
+   display: flex;
+   background-color: #fff;
+   border: 1px solid #e4e3e3;
+   border-radius: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   gap: 5px;
+   margin-bottom: 15px;
+}
+
+.first_form_wp input{
+   width: 100%;
+   padding: 9px 7px;
+   font-size: 12px;
+   background-color: #fbfafa;
+   border: 1px solid #e4e3e3;
+}
+
+.login_btn{
+   background-color: #009BFB;
+   color: #fff;
+   border-radius: 8px;
+   width: 100%;
+   padding: 7px 5px;
+   margin-top: 10px;
+   font-size: 15px;
+   font-weight:500;
+   cursor: pointer;
+   margin-bottom: 10px;
+}
+
+.img_logo {
+   width: 175px;
+   height: 60px;
+   margin: 10px 0 20px
+}
+
+.or_wp{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   margin: 20px;
+}
+.or_wp span{
+   border: 1px solid #D9D9D9;
+   width: 100px;
+
+
+}
+.or_wp p{
+   color: #929191;
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.facebook_wp{
+   color: #385185;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: 500;
+   margin-bottom: 10px;;
+}
+
+.passw_wp{
+   color: #111;
+   font-size: 12px;
+   cursor:pointer;
+}
+
+.text_wp{
+   background-color: #fff;
+   border: 1px solid #e4e3e3;
+   border-radius: 1px;
+   padding: 20px 25px;
+   color: #111;
+   font-size: 14px;
+   display: flex;
+   gap: 5px;
+}
+.text_wp p {
+
+}
+
+.reg_text{
+   color: #009BFB;
+   font-weight: 500;
+}
+
+.app_img{
+   height: 40px;
+}
+.app_inst{
+   text-align: center;
+   padding: 15px 0;
+}
+
+.app_img_wp{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+
+}
+
+footer{
+   padding: 10px 30px;
+  
+   margin: 0 auto;
+}
+
+.footer_wp{
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-bottom: 10px;
+}
+
+.footer_link{
+   color: #5f5d5d;
+   font-size: 12px;
+}
+.footer_link:hover{
+   border-bottom: 1px solid #5f5d5d;
+}
+
+.info_wp{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #5f5d5d;
+   font-size: 12px;
+   gap: 25px;
+}
