@@ -163,3 +163,9 @@ main img{
    display: flex;
    justify-content: space-between;
 }
+
+.item_a_wp > a {
+   font-weight: 600;
+   line-height: 1.5;
+   font-size: 1rem;
+}
